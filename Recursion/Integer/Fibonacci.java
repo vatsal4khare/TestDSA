@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Integer;
 
 public class Fibonacci {
     public static void main(String[] args) {

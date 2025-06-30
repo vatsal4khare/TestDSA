@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Integer;
 
 public class ProductOfDigits {
     public static void main(String[] args) {
