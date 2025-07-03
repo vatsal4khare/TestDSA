@@ -1,4 +1,4 @@
-package com.Vatsal;
+package Sorting;
 
 import java.util.Arrays;
 
