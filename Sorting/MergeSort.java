@@ -3,6 +3,7 @@ package Sorting;
 import java.util.Arrays;
 
 public class MergeSort {
+    //This solution is with extra space, we have another file with in-place solution
     public static void main(String[] args) {
         int[] arr={5,3,4,1,2};
         arr=mergeSort(arr);
