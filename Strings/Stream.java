@@ -24,16 +24,16 @@ public class Stream {
 //     }
     static String stream(String a , String res){
         if(a.isEmpty()){
-            System.out.println(a);
-            return "";
+            System.out.println(res);
+            return res;
         }
                 if(a.charAt(0)=='a'){
-            return stream(a.substring(1), ""+a);
+            return stream(a.substring(1), ""+res);
         }
         else
         {
             String ch = String.valueOf(a.charAt(0));
-            return stream(a.substring(1),ch+a);
+            return stream(a.substring(1),res+ch);
         }
 
 
