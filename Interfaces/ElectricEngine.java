@@ -15,4 +15,9 @@ public class ElectricEngine implements Engine{
     public void accelerate() {
 
     }
+
+    @Override
+    public void brake() {
+
+    }
 }

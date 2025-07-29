@@ -18,4 +18,8 @@ public class PowerEngine implements Engine {
 
     }
 
+    @Override
+    public void brake() {
+
+    }
 }

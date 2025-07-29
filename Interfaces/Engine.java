@@ -1,6 +1,6 @@
 package Interfaces;
 
-public interface Engine {
+public interface Engine extends Brake{
 
     String Name="PowerEngine"; //we need not specify variables in interfaces as static
 //    and final, they are by default assumed static and final
