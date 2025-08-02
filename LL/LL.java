@@ -70,6 +70,18 @@ public class LL {
         size=size-1;
     }
 
+    public void insertWithRecursion(int index, int val){
+        Node temp = head;
+        if(index==0){
+            Node node = new Node(val);
+            node.next=temp.next.next;
+            temp.next=node;
+            size=size+1;
+            return;
+        }
+        insertWithRecursion(index-1,val);
+
+    }
     private class Node{
         private int value;
         private Node next;

@@ -9,7 +9,7 @@ public class DLL {
         this.size=0;
     }
 
-    public void insert(Node prev, int val){
+    public void insertAfter(Node prev, int val){
         if(prev.next==null){
             insertLast(val);
             return;
