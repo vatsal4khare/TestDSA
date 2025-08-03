@@ -14,7 +14,7 @@ public class Main {
         ll.display();
         ll.deleteLast();
         ll.display();
-        ll.insertWithRecursion(1,7,);
+        ll.insertRec(77,2);
         ll.display();
 
 //        DLL dll = new DLL();
